@@ -1,0 +1,554 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Invoke a Service · SNiPER Documentation</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="3.Python.html" />
+    
+    
+    <link rel="prev" href="1.CppCode.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../Architecture/0.Architecture.html">
+            
+                <a href="../Architecture/0.Architecture.html">
+            
+                    
+                    Architecture
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../Architecture/1.Concepts.html">
+            
+                <a href="../Architecture/1.Concepts.html">
+            
+                    
+                    General Concepts
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../Architecture/2.Interfaces.html">
+            
+                <a href="../Architecture/2.Interfaces.html">
+            
+                    
+                    Interfaces
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../Architecture/3.ExeSeq.html">
+            
+                <a href="../Architecture/3.ExeSeq.html">
+            
+                    
+                    Execution Sequence
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../Algorithms/0.Algorithms.html">
+            
+                <a href="../Algorithms/0.Algorithms.html">
+            
+                    
+                    Algorithms
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../Algorithms/1.CppCode.html">
+            
+                <a href="../Algorithms/1.CppCode.html">
+            
+                    
+                    C++ Implementation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../Algorithms/2.Python.html">
+            
+                <a href="../Algorithms/2.Python.html">
+            
+                    
+                    Python Configuration and Execution
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="0.Services.html">
+            
+                <a href="0.Services.html">
+            
+                    
+                    Services
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="1.CppCode.html">
+            
+                <a href="1.CppCode.html">
+            
+                    
+                    C++ Implementation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.2" data-path="2.Invoke.html">
+            
+                <a href="2.Invoke.html">
+            
+                    
+                    Invoke a Service
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="3.Python.html">
+            
+                <a href="3.Python.html">
+            
+                    
+                    Python Configuration and Execution
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../Tasks.html">
+            
+                <a href="../Tasks.html">
+            
+                    
+                    Tasks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../DataManagement.html">
+            
+                <a href="../DataManagement.html">
+            
+                    
+                    Data Management
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../Tools.html">
+            
+                <a href="../Tools.html">
+            
+                    
+                    Tools
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../installation.html">
+            
+                <a href="../installation.html">
+            
+                    
+                    Installation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../Test.html">
+            
+                <a href="../Test.html">
+            
+                    
+                    Test
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Invoke a Service</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="invoke-a-service">Invoke a Service</h2>
+<p>In this section we create a new algorithm, SecondAlg, in which the FirstSvc is invoked.</p>
+<p>The header file is,</p>
+<pre><code class="lang-c++"><span class="hljs-comment">// file SecondAlg.h</span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">ifndef</span> SECOND_ALG_H</span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> SECOND_ALG_H</span>
+
+<span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-string">&quot;SniperKernel/AlgBase.h&quot;</span></span>
+
+<span class="hljs-keyword">class</span> IfMySvc;
+
+<span class="hljs-keyword">class</span> SecondAlg : <span class="hljs-keyword">public</span> AlgBase
+{
+    <span class="hljs-keyword">public</span>:
+        SecondAlg(<span class="hljs-keyword">const</span> <span class="hljs-built_in">std</span>::<span class="hljs-built_in">string</span>&amp; name);
+
+        <span class="hljs-function"><span class="hljs-keyword">bool</span> <span class="hljs-title">initialize</span><span class="hljs-params">()</span></span>;
+        <span class="hljs-function"><span class="hljs-keyword">bool</span> <span class="hljs-title">execute</span><span class="hljs-params">()</span></span>;
+        <span class="hljs-function"><span class="hljs-keyword">bool</span> <span class="hljs-title">finalize</span><span class="hljs-params">()</span></span>;
+
+    <span class="hljs-keyword">private</span>:
+        <span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">int</span>  m_count;
+        IfMySvc*      m_svc;
+};
+<span class="hljs-meta">#<span class="hljs-meta-keyword">endif</span></span>
+</code></pre>
+<p>And the source file is,</p>
+<pre><code class="lang-c++"><span class="hljs-comment">// file SecondAlg.cc</span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-string">&quot;SecondAlg.h&quot;</span></span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-string">&quot;FirstSvc/IfMySvc.h&quot;</span></span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-string">&quot;SniperKernel/AlgFactory.h&quot;</span></span>
+
+DECLARE_ALGORITHM(SecondAlg);
+
+SecondAlg::SecondAlg(<span class="hljs-keyword">const</span> <span class="hljs-built_in">std</span>::<span class="hljs-built_in">string</span>&amp; name)
+    : AlgBase(name),
+      m_count(<span class="hljs-number">0</span>)
+{
+}
+
+<span class="hljs-keyword">bool</span> SecondAlg::initialize()
+{
+    LogDebug &lt;&lt; <span class="hljs-string">&quot;in the SecondAlg::initialize()&quot;</span> &lt;&lt; <span class="hljs-built_in">std</span>::<span class="hljs-built_in">endl</span>;
+
+    SniperPtr&lt;IfMySvc&gt; _svc(<span class="hljs-keyword">this</span>-&gt;getScope(), <span class="hljs-string">&quot;MyService&quot;</span>);
+    <span class="hljs-keyword">if</span> ( _svc.valid() ) {
+        LogInfo &lt;&lt; <span class="hljs-string">&quot;the IfMySvc instance is retrieved&quot;</span> &lt;&lt; <span class="hljs-built_in">std</span>::<span class="hljs-built_in">endl</span>;
+    }
+    <span class="hljs-keyword">else</span>{
+        LogError &lt;&lt; <span class="hljs-string">&quot;Failed to get the IfMySvc instance!&quot;</span> &lt;&lt; <span class="hljs-built_in">std</span>::<span class="hljs-built_in">endl</span>;
+        <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+    }
+    m_svc = _svc.data();
+
+    <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;
+}
+
+<span class="hljs-keyword">bool</span> SecondAlg::execute()
+{
+    LogDebug &lt;&lt; <span class="hljs-string">&quot;in the SecondAlg::execute()&quot;</span> &lt;&lt; <span class="hljs-built_in">std</span>::<span class="hljs-built_in">endl</span>;
+
+    ++m_count;
+    LogInfo &lt;&lt; <span class="hljs-string">&quot;loop &quot;</span> &lt;&lt; m_count &lt;&lt; <span class="hljs-built_in">std</span>::<span class="hljs-built_in">endl</span>;
+
+    <span class="hljs-keyword">if</span> ( m_count%<span class="hljs-number">2</span> == <span class="hljs-number">1</span> ) {
+        m_svc-&gt;doSomeThing();
+    }
+
+    <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;
+}
+
+<span class="hljs-keyword">bool</span> SecondAlg::finalize()
+{
+    LogDebug &lt;&lt; <span class="hljs-string">&quot;in the SecondAlg::finalize()&quot;</span> &lt;&lt; <span class="hljs-built_in">std</span>::<span class="hljs-built_in">endl</span>;
+    <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;
+}
+</code></pre>
+<p>In order to avoid the retrieval of FirstSvc in each time of the events loop, we retrieve it in <code>initialize()</code>, which is executed only once at the beginning of the application. A class template, SniperPtr, is used for the retrival. Then the raw pointer is assigned to the data member <code>m_svc</code>.</p>
+<ul>
+<li>the template parameter can be the concrete type of the service (FirstSvc), or the pure virtual base class (IfMySvc). We use the later one for flexibility in this example.</li>
+<li>the 1st constructor parameter indicates where to find the service. In most situations it is <code>this-&gt;getScope()</code>. It might be different when we have multiple Task instances, which will be described as an advanced topic in later sections.</li>
+<li>the 2nd constructor parameter indicates the name of the service instance;</li>
+</ul>
+<p>During the event loop, the service is not always invoked. In this example, it&apos;s invoked only when the loop count is odd.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="1.CppCode.html" class="navigation navigation-prev " aria-label="Previous page: C++ Implementation">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="3.Python.html" class="navigation navigation-next " aria-label="Next page: Python Configuration and Execution">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Invoke a Service","level":"1.4.2","depth":2,"next":{"title":"Python Configuration and Execution","level":"1.4.3","depth":2,"path":"Services/3.Python.md","ref":"Services/3.Python.md","articles":[]},"previous":{"title":"C++ Implementation","level":"1.4.1","depth":2,"path":"Services/1.CppCode.md","ref":"Services/1.CppCode.md","articles":[]},"dir":"ltr"},"config":{"plugins":["flow","sequence","mermaid-gb3"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"sequence":{"theme":"simple"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"flow":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"mermaid-gb3":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"SNiPER Documentation","gitbook":"3.x.x"},"file":{"path":"Services/2.Invoke.md","mtime":"2017-12-12T09:31:06.560Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-12-12T10:25:43.353Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-mermaid-gb3/book/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    <script src="../gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.min.js"></script>
+
+    </body>
+</html>
+

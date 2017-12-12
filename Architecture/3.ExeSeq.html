@@ -1,0 +1,492 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Execution Sequence · SNiPER Documentation</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../Algorithms/0.Algorithms.html" />
+    
+    
+    <link rel="prev" href="2.Interfaces.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="0.Architecture.html">
+            
+                <a href="0.Architecture.html">
+            
+                    
+                    Architecture
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="1.Concepts.html">
+            
+                <a href="1.Concepts.html">
+            
+                    
+                    General Concepts
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="2.Interfaces.html">
+            
+                <a href="2.Interfaces.html">
+            
+                    
+                    Interfaces
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.3" data-path="3.ExeSeq.html">
+            
+                <a href="3.ExeSeq.html">
+            
+                    
+                    Execution Sequence
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../Algorithms/0.Algorithms.html">
+            
+                <a href="../Algorithms/0.Algorithms.html">
+            
+                    
+                    Algorithms
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../Algorithms/1.CppCode.html">
+            
+                <a href="../Algorithms/1.CppCode.html">
+            
+                    
+                    C++ Implementation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../Algorithms/2.Python.html">
+            
+                <a href="../Algorithms/2.Python.html">
+            
+                    
+                    Python Configuration and Execution
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../Services/0.Services.html">
+            
+                <a href="../Services/0.Services.html">
+            
+                    
+                    Services
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../Services/1.CppCode.html">
+            
+                <a href="../Services/1.CppCode.html">
+            
+                    
+                    C++ Implementation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../Services/2.Invoke.html">
+            
+                <a href="../Services/2.Invoke.html">
+            
+                    
+                    Invoke a Service
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../Services/3.Python.html">
+            
+                <a href="../Services/3.Python.html">
+            
+                    
+                    Python Configuration and Execution
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../Tasks.html">
+            
+                <a href="../Tasks.html">
+            
+                    
+                    Tasks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../DataManagement.html">
+            
+                <a href="../DataManagement.html">
+            
+                    
+                    Data Management
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../Tools.html">
+            
+                <a href="../Tools.html">
+            
+                    
+                    Tools
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../installation.html">
+            
+                <a href="../installation.html">
+            
+                    
+                    Installation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../Test.html">
+            
+                <a href="../Test.html">
+            
+                    
+                    Test
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Execution Sequence</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="execution-sequence">Execution Sequence</h2>
+<p>The execution of SNiPER mainly consists of 3 steps, initialize, events loop and finalize. Each step consists some sub-steps as following,</p>
+<ol>
+<li>initialize<ol>
+<li>all services are initialized in the order of their creation;</li>
+<li>then all algorithms are initialized in the order of their creation;</li>
+</ol>
+</li>
+<li>events loop: loop all events. To each event, the following procedures are applied,<ol>
+<li>broadcast an incident named BeginEvt (begin event);</li>
+<li>invoke the execute() method of all algorithms, in the order of their creation;</li>
+<li>broadcast an incident named EndEvt (end event);</li>
+</ol>
+</li>
+<li>finalize<ol>
+<li>all algorithms are finalized in the inverted order of their creation;</li>
+<li>then all services are finalized in the inverted order of their creation;</li>
+</ol>
+</li>
+</ol>
+<p>The following shows the execution sequence diagram.</p>
+<p><div xmlns="http://www.w3.org/1999/xhtml" class="sequence"><svg height="1006.09375" version="1.1" width="660" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="overflow: hidden; position: relative;"><desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Created with Rapha&#xEB;l 2.1.4</desc><defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><path stroke-linecap="round" d="M6,1 1,3.5 6,6" id="raphael-marker-open" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><marker id="raphael-marker-endopen77-obj55" markerheight="7" markerwidth="7" orient="auto" refx="4" refy="3.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><use xlink:href="#raphael-marker-open" xmlns:xlink="http://www.w3.org/1999/xlink" transform="rotate(180 3.5 3.5) scale(1,1)" stroke-width="1.0000" fill="none" stroke="#000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/></marker><marker id="raphael-marker-endopen77-obj61" markerheight="7" markerwidth="7" orient="auto" refx="4" refy="3.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><use xlink:href="#raphael-marker-open" xmlns:xlink="http://www.w3.org/1999/xlink" transform="rotate(180 3.5 3.5) scale(1,1)" stroke-width="1.0000" fill="none" stroke="#000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/></marker><marker id="raphael-marker-endopen77-obj67" markerheight="7" markerwidth="7" orient="auto" refx="4" refy="3.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><use xlink:href="#raphael-marker-open" xmlns:xlink="http://www.w3.org/1999/xlink" transform="rotate(180 3.5 3.5) scale(1,1)" stroke-width="1.0000" fill="none" stroke="#000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/></marker><marker id="raphael-marker-endopen77-obj70" markerheight="7" markerwidth="7" orient="auto" refx="4" refy="3.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><use xlink:href="#raphael-marker-open" xmlns:xlink="http://www.w3.org/1999/xlink" transform="rotate(180 3.5 3.5) scale(1,1)" stroke-width="1.0000" fill="none" stroke="#000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/></marker><marker id="raphael-marker-endopen77-obj76" markerheight="7" markerwidth="7" orient="auto" refx="4" refy="3.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><use xlink:href="#raphael-marker-open" xmlns:xlink="http://www.w3.org/1999/xlink" transform="rotate(180 3.5 3.5) scale(1,1)" stroke-width="1.0000" fill="none" stroke="#000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/></marker><marker id="raphael-marker-endopen77-obj79" markerheight="7" markerwidth="7" orient="auto" refx="4" refy="3.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><use xlink:href="#raphael-marker-open" xmlns:xlink="http://www.w3.org/1999/xlink" transform="rotate(180 3.5 3.5) scale(1,1)" stroke-width="1.0000" fill="none" stroke="#000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/></marker><marker id="raphael-marker-endopen77-obj82" markerheight="7" markerwidth="7" orient="auto" refx="4" refy="3.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><use xlink:href="#raphael-marker-open" xmlns:xlink="http://www.w3.org/1999/xlink" transform="rotate(180 3.5 3.5) scale(1,1)" stroke-width="1.0000" fill="none" stroke="#000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/></marker><path stroke-linecap="round" d="M5,0 0,2.5 5,5z" id="raphael-marker-block" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><marker id="raphael-marker-endblock55-obj87" markerheight="5" markerwidth="5" orient="auto" refx="2.5" refy="2.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><use xlink:href="#raphael-marker-block" xmlns:xlink="http://www.w3.org/1999/xlink" transform="rotate(180 2.5 2.5) scale(1,1)" stroke-width="1.0000" fill="#000" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/></marker><marker id="raphael-marker-endopen77-obj90" markerheight="7" markerwidth="7" orient="auto" refx="4" refy="3.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><use xlink:href="#raphael-marker-open" xmlns:xlink="http://www.w3.org/1999/xlink" transform="rotate(180 3.5 3.5) scale(1,1)" stroke-width="1.0000" fill="none" stroke="#000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/></marker><marker id="raphael-marker-endopen77-obj93" markerheight="7" markerwidth="7" orient="auto" refx="4" refy="3.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><use xlink:href="#raphael-marker-open" xmlns:xlink="http://www.w3.org/1999/xlink" transform="rotate(180 3.5 3.5) scale(1,1)" stroke-width="1.0000" fill="none" stroke="#000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/></marker><marker id="raphael-marker-endopen77-obj99" markerheight="7" markerwidth="7" orient="auto" refx="4" refy="3.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><use xlink:href="#raphael-marker-open" xmlns:xlink="http://www.w3.org/1999/xlink" transform="rotate(180 3.5 3.5) scale(1,1)" stroke-width="1.0000" fill="none" stroke="#000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/></marker></defs><rect x="30" y="20" width="60" height="39" rx="0" ry="0" fill="none" stroke="#000000" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><rect x="40" y="30" width="40" height="19" rx="0" ry="0" fill="#ffffff" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><text x="60" y="39.5" text-anchor="middle" font-family="Andale Mono, monospace" font-size="16px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: &apos;Andale Mono&apos;, monospace; font-size: 16px;"><tspan dy="5.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Task</tspan></text><rect x="30" y="947.09375" width="60" height="39" rx="0" ry="0" fill="none" stroke="#000000" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><rect x="40" y="957.09375" width="40" height="19" rx="0" ry="0" fill="#ffffff" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><text x="60" y="966.59375" text-anchor="middle" font-family="Andale Mono, monospace" font-size="16px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: &apos;Andale Mono&apos;, monospace; font-size: 16px;"><tspan dy="5.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Task</tspan></text><path fill="none" stroke="#000000" d="M60,59L60,947.09375" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><rect x="110" y="20" width="150" height="39" rx="0" ry="0" fill="none" stroke="#000000" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><rect x="120" y="30" width="130" height="19" rx="0" ry="0" fill="#ffffff" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><text x="185" y="39.5" text-anchor="middle" font-family="Andale Mono, monospace" font-size="16px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: &apos;Andale Mono&apos;, monospace; font-size: 16px;"><tspan dy="5.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">SvcSupervisor</tspan></text><rect x="110" y="947.09375" width="150" height="39" rx="0" ry="0" fill="none" stroke="#000000" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><rect x="120" y="957.09375" width="130" height="19" rx="0" ry="0" fill="#ffffff" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><text x="185" y="966.59375" text-anchor="middle" font-family="Andale Mono, monospace" font-size="16px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: &apos;Andale Mono&apos;, monospace; font-size: 16px;"><tspan dy="5.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">SvcSupervisor</tspan></text><path fill="none" stroke="#000000" d="M185,59L185,947.09375" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><rect x="290" y="20" width="150" height="39" rx="0" ry="0" fill="none" stroke="#000000" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><rect x="300" y="30" width="130" height="19" rx="0" ry="0" fill="#ffffff" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><text x="365" y="39.5" text-anchor="middle" font-family="Andale Mono, monospace" font-size="16px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: &apos;Andale Mono&apos;, monospace; font-size: 16px;"><tspan dy="5.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">AlgSupervisor</tspan></text><rect x="290" y="947.09375" width="150" height="39" rx="0" ry="0" fill="none" stroke="#000000" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><rect x="300" y="957.09375" width="130" height="19" rx="0" ry="0" fill="#ffffff" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><text x="365" y="966.59375" text-anchor="middle" font-family="Andale Mono, monospace" font-size="16px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: &apos;Andale Mono&apos;, monospace; font-size: 16px;"><tspan dy="5.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">AlgSupervisor</tspan></text><path fill="none" stroke="#000000" d="M365,59L365,947.09375" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><rect x="500" y="20" width="130" height="39" rx="0" ry="0" fill="none" stroke="#000000" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><rect x="510" y="30" width="110" height="19" rx="0" ry="0" fill="#ffffff" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><text x="565" y="39.5" text-anchor="middle" font-family="Andale Mono, monospace" font-size="16px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: &apos;Andale Mono&apos;, monospace; font-size: 16px;"><tspan dy="5.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">IncidentMgr</tspan></text><rect x="500" y="947.09375" width="130" height="39" rx="0" ry="0" fill="none" stroke="#000000" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><rect x="510" y="957.09375" width="110" height="19" rx="0" ry="0" fill="#ffffff" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><text x="565" y="966.59375" text-anchor="middle" font-family="Andale Mono, monospace" font-size="16px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: &apos;Andale Mono&apos;, monospace; font-size: 16px;"><tspan dy="5.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">IncidentMgr</tspan></text><path fill="none" stroke="#000000" d="M565,59L565,947.09375" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><rect x="25" y="79" width="70" height="29" rx="0" ry="0" fill="none" stroke="#000000" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><rect x="30" y="84" width="60" height="19" rx="0" ry="0" fill="#ffffff" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><text x="60" y="93.5" text-anchor="middle" font-family="Andale Mono, monospace" font-size="16px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: &apos;Andale Mono&apos;, monospace; font-size: 16px;"><tspan dy="5.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">config</tspan></text><rect x="72.5" y="123.5" width="100" height="19" rx="0" ry="0" fill="#ffffff" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><text x="122.5" y="133" text-anchor="middle" font-family="Andale Mono, monospace" font-size="16px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: &apos;Andale Mono&apos;, monospace; font-size: 16px;"><tspan dy="5.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">initialize</tspan></text><path fill="none" stroke="#000000" d="M60,147C60,147,166.96441680192947,147,182.99863357839058,147" stroke-width="2" marker-end="url(#raphael-marker-endopen77-obj55)" stroke-dasharray="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><rect x="115" y="167" width="140" height="48.21875" rx="0" ry="0" fill="none" stroke="#000000" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><rect x="120" y="172" width="130" height="38.21875" rx="0" ry="0" fill="#ffffff" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><text x="185" y="191.109375" text-anchor="middle" font-family="Andale Mono, monospace" font-size="16px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: &apos;Andale Mono&apos;, monospace; font-size: 16px;"><tspan dy="-4.1015625" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">initialize</tspan><tspan dy="19.2" x="185" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">services list</tspan></text><rect x="162.5" y="230.71875" width="100" height="19" rx="0" ry="0" fill="#ffffff" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><text x="212.5" y="240.21875" text-anchor="middle" font-family="Andale Mono, monospace" font-size="16px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: &apos;Andale Mono&apos;, monospace; font-size: 16px;"><tspan dy="5.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">initialize</tspan></text><path fill="none" stroke="#000000" d="M60,254.21875C60,254.21875,336.6507449746132,254.21875,362.9920024306921,254.21875" stroke-width="2" marker-end="url(#raphael-marker-endopen77-obj61)" stroke-dasharray="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><rect x="285" y="274.21875" width="160" height="48.21875" rx="0" ry="0" fill="none" stroke="#000000" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><rect x="290" y="279.21875" width="150" height="38.21875" rx="0" ry="0" fill="#ffffff" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><text x="365" y="298.328125" text-anchor="middle" font-family="Andale Mono, monospace" font-size="16px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: &apos;Andale Mono&apos;, monospace; font-size: 16px;"><tspan dy="-4.1015625" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">initialize</tspan><tspan dy="19.2" x="365" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">algorithms list</tspan></text><rect x="127.5" y="337.9375" width="170" height="19" rx="0" ry="0" fill="#ffffff" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><text x="212.5" y="347.4375" text-anchor="middle" font-family="Andale Mono, monospace" font-size="16px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: &apos;Andale Mono&apos;, monospace; font-size: 16px;"><tspan dy="5.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">start events loop</tspan></text><path fill="none" stroke="#000000" d="M60,361.4375C60,361.4375,336.6507449746132,361.4375,362.9920024306921,361.4375" stroke-width="2" marker-end="url(#raphael-marker-endopen77-obj67)" stroke-dasharray="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><rect x="425" y="376.9375" width="80" height="19" rx="0" ry="0" fill="#ffffff" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><text x="465" y="386.4375" text-anchor="middle" font-family="Andale Mono, monospace" font-size="16px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: &apos;Andale Mono&apos;, monospace; font-size: 16px;"><tspan dy="5.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">BeginEvt</tspan></text><path fill="none" stroke="#000000" d="M365,400.4375C365,400.4375,542.1572232246399,400.4375,563.00433787168,400.4375" stroke-width="2" marker-end="url(#raphael-marker-endopen77-obj70)" stroke-dasharray="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><rect x="385" y="420.4375" width="120" height="48.21875" rx="0" ry="0" fill="none" stroke="#000000" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><rect x="390" y="425.4375" width="110" height="38.21875" rx="0" ry="0" fill="#ffffff" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><text x="445" y="444.546875" text-anchor="middle" font-family="Andale Mono, monospace" font-size="16px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: &apos;Andale Mono&apos;, monospace; font-size: 16px;"><tspan dy="-4.1015625" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">execute all</tspan><tspan dy="19.2" x="445" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">algorithms</tspan></text><rect x="195" y="484.15625" width="160" height="19" rx="0" ry="0" fill="#ffffff" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><text x="275" y="493.65625" text-anchor="middle" font-family="Andale Mono, monospace" font-size="16px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: &apos;Andale Mono&apos;, monospace; font-size: 16px;"><tspan dy="5.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">optional invokes</tspan></text><path fill="none" stroke="#000000" d="M365,507.65625C365,507.65625,206.63203716278076,507.65625,186.99069802183658,507.65625" stroke-width="2" marker-end="url(#raphael-marker-endopen77-obj76)" stroke-dasharray="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><rect x="245" y="523.15625" width="60" height="19" rx="0" ry="0" fill="#ffffff" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><text x="275" y="532.65625" text-anchor="middle" font-family="Andale Mono, monospace" font-size="16px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: &apos;Andale Mono&apos;, monospace; font-size: 16px;"><tspan dy="5.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">result</tspan></text><path fill="none" stroke="#000000" d="M185,546.65625C185,546.65625,343.36796283721924,546.65625,363.0093019781634,546.65625" stroke-width="2" marker-end="url(#raphael-marker-endopen77-obj79)" stroke-dasharray="6,2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><rect x="435" y="562.15625" width="60" height="19" rx="0" ry="0" fill="#ffffff" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><text x="465" y="571.65625" text-anchor="middle" font-family="Andale Mono, monospace" font-size="16px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: &apos;Andale Mono&apos;, monospace; font-size: 16px;"><tspan dy="5.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">EndEvt</tspan></text><path fill="none" stroke="#000000" d="M365,585.65625C365,585.65625,542.1572232246399,585.65625,563.00433787168,585.65625" stroke-width="2" marker-end="url(#raphael-marker-endopen77-obj82)" stroke-dasharray="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><rect x="390" y="605.65625" width="160" height="19" rx="0" ry="0" fill="#ffffff" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><text x="470" y="615.15625" text-anchor="middle" font-family="Andale Mono, monospace" font-size="16px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: &apos;Andale Mono&apos;, monospace; font-size: 16px;"><tspan dy="5.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">loop to BeginEvt</tspan></text><path fill="none" stroke="#000000" d="M365,600.65625L385,600.65625" stroke-width="2" stroke-dasharray="6,2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><path fill="none" stroke="#000000" d="M385,600.65625L385,634.65625" stroke-width="2" stroke-dasharray="6,2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><path fill="none" stroke="#000000" d="M385,634.65625C385,634.65625,375.9191131591797,634.65625,369.9952533841133,634.65625" stroke-width="2" stroke-dasharray="6,2" marker-end="url(#raphael-marker-endblock55-obj87)" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><rect x="137.5" y="640.15625" width="150" height="19" rx="0" ry="0" fill="#ffffff" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><text x="212.5" y="649.65625" text-anchor="middle" font-family="Andale Mono, monospace" font-size="16px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: &apos;Andale Mono&apos;, monospace; font-size: 16px;"><tspan dy="5.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">end events loop</tspan></text><path fill="none" stroke="#000000" d="M365,663.65625C365,663.65625,88.34925502538681,663.65625,62.00799756930792,663.65625" stroke-width="2" marker-end="url(#raphael-marker-endopen77-obj90)" stroke-dasharray="6,2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><rect x="172.5" y="679.15625" width="80" height="19" rx="0" ry="0" fill="#ffffff" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><text x="212.5" y="688.65625" text-anchor="middle" font-family="Andale Mono, monospace" font-size="16px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: &apos;Andale Mono&apos;, monospace; font-size: 16px;"><tspan dy="5.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">finalize</tspan></text><path fill="none" stroke="#000000" d="M60,702.65625C60,702.65625,336.6507449746132,702.65625,362.9920024306921,702.65625" stroke-width="2" marker-end="url(#raphael-marker-endopen77-obj93)" stroke-dasharray="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><rect x="285" y="722.65625" width="160" height="48.21875" rx="0" ry="0" fill="none" stroke="#000000" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><rect x="290" y="727.65625" width="150" height="38.21875" rx="0" ry="0" fill="#ffffff" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><text x="365" y="746.765625" text-anchor="middle" font-family="Andale Mono, monospace" font-size="16px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: &apos;Andale Mono&apos;, monospace; font-size: 16px;"><tspan dy="-4.1015625" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">finalize</tspan><tspan dy="19.2" x="365" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">algorithms list</tspan></text><rect x="82.5" y="786.375" width="80" height="19" rx="0" ry="0" fill="#ffffff" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><text x="122.5" y="795.875" text-anchor="middle" font-family="Andale Mono, monospace" font-size="16px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: &apos;Andale Mono&apos;, monospace; font-size: 16px;"><tspan dy="5.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">finalize</tspan></text><path fill="none" stroke="#000000" d="M60,809.875C60,809.875,166.96441680192947,809.875,182.99863357839058,809.875" stroke-width="2" marker-end="url(#raphael-marker-endopen77-obj99)" stroke-dasharray="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><rect x="115" y="829.875" width="140" height="48.21875" rx="0" ry="0" fill="none" stroke="#000000" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><rect x="120" y="834.875" width="130" height="38.21875" rx="0" ry="0" fill="#ffffff" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><text x="185" y="853.984375" text-anchor="middle" font-family="Andale Mono, monospace" font-size="16px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: &apos;Andale Mono&apos;, monospace; font-size: 16px;"><tspan dy="-4.1015625" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">finalize</tspan><tspan dy="19.2" x="185" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">services list</tspan></text><rect x="10" y="898.09375" width="100" height="29" rx="0" ry="0" fill="none" stroke="#000000" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><rect x="15" y="903.09375" width="90" height="19" rx="0" ry="0" fill="#ffffff" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"/><text x="60" y="912.59375" text-anchor="middle" font-family="Andale Mono, monospace" font-size="16px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: &apos;Andale Mono&apos;, monospace; font-size: 16px;"><tspan dy="5.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">terminate</tspan></text></svg></div></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="2.Interfaces.html" class="navigation navigation-prev " aria-label="Previous page: Interfaces">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../Algorithms/0.Algorithms.html" class="navigation navigation-next " aria-label="Next page: Algorithms">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Execution Sequence","level":"1.2.3","depth":2,"next":{"title":"Algorithms","level":"1.3","depth":1,"path":"Algorithms/0.Algorithms.md","ref":"Algorithms/0.Algorithms.md","articles":[{"title":"C++ Implementation","level":"1.3.1","depth":2,"path":"Algorithms/1.CppCode.md","ref":"Algorithms/1.CppCode.md","articles":[]},{"title":"Python Configuration and Execution","level":"1.3.2","depth":2,"path":"Algorithms/2.Python.md","ref":"Algorithms/2.Python.md","articles":[]}]},"previous":{"title":"Interfaces","level":"1.2.2","depth":2,"path":"Architecture/2.Interfaces.md","ref":"Architecture/2.Interfaces.md","articles":[]},"dir":"ltr"},"config":{"plugins":["flow","sequence","mermaid-gb3"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"sequence":{"theme":"simple"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"flow":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"mermaid-gb3":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"SNiPER Documentation","gitbook":"3.x.x"},"file":{"path":"Architecture/3.ExeSeq.md","mtime":"2017-12-12T09:31:06.559Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-12-12T10:25:43.353Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-mermaid-gb3/book/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    <script src="../gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.min.js"></script>
+
+    </body>
+</html>
+
