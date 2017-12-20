@@ -65,7 +65,7 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="Tools.html" />
+    <link rel="next" href="DataManagement/basic-concept.html" />
     
     
     <link rel="prev" href="Task/1.StateMachine.html" />
@@ -327,6 +327,128 @@
             
 
             
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="DataManagement/basic-concept.html">
+            
+                <a href="DataManagement/basic-concept.html">
+            
+                    
+                    General Concept
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="DataManagement/relevant-tools.html">
+            
+                <a href="DataManagement/relevant-tools.html">
+            
+                    
+                    Relevant Utilities
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.2.1" data-path="DataManagement/data-buffer.html">
+            
+                <a href="DataManagement/data-buffer.html">
+            
+                    
+                    Data Buffer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2.2" data-path="DataManagement/rootwriter.html">
+            
+                <a href="DataManagement/rootwriter.html">
+            
+                    
+                    RootWriter
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="DataManagement/example-juno-data-management.html">
+            
+                <a href="DataManagement/example-juno-data-management.html">
+            
+                    
+                    Example: JUNO Data Management
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.3.1" >
+            
+                <span>
+            
+                    
+                    Event Data Model
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3.2" >
+            
+                <span>
+            
+                    
+                    Memory Management
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3.3" >
+            
+                <span>
+            
+                    
+                    ROOT I/O
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
         </li>
     
         <li class="chapter " data-level="1.8" data-path="Tools.html">
@@ -335,19 +457,6 @@
             
                     
                     Tools
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.9" data-path="installation.html">
-            
-                <a href="installation.html">
-            
-                    
-                    Installation
             
                 </a>
             
@@ -401,6 +510,8 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="data-management">Data Management</h1>
+<p>Data management system is designed to manage the event data during offline data processing. It includes the event data model (EDM) which defines the event data entity to be processed, the memory manager that holds the EDM objects in memory and the data input/output (I/O) system that implements the writing and reading of data files.</p>
+<p>SNiPER provides the basic idea and architecture of data management system, on which developers could develop the experiment-specific system based on their requirements. This chapter introduces the basic SNiPER data management architecture as well as the data management system of JUNO (Jiangmen Underground Neutrino Observation) offline software as an example.</p>
 
                                 
                                 </section>
@@ -433,7 +544,7 @@
                 </a>
                 
                 
-                <a href="Tools.html" class="navigation navigation-next " aria-label="Next page: Tools">
+                <a href="DataManagement/basic-concept.html" class="navigation navigation-next " aria-label="Next page: General Concept">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -444,7 +555,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Data Management","level":"1.7","depth":1,"next":{"title":"Tools","level":"1.8","depth":1,"path":"Tools.md","ref":"Tools.md","articles":[]},"previous":{"title":"State Machine","level":"1.6.1","depth":2,"path":"Task/1.StateMachine.md","ref":"Task/1.StateMachine.md","articles":[]},"dir":"ltr"},"config":{"plugins":["flow","sequence","mermaid-gb3"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"sequence":{"theme":"simple"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"flow":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"mermaid-gb3":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"SNiPER Documentation","gitbook":"3.x.x"},"file":{"path":"DataManagement.md","mtime":"2017-12-12T09:31:06.559Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-12-14T02:32:06.845Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Data Management","level":"1.7","depth":1,"next":{"title":"General Concept","level":"1.7.1","depth":2,"path":"DataManagement/basic-concept.md","ref":"DataManagement/basic-concept.md","articles":[]},"previous":{"title":"State Machine","level":"1.6.1","depth":2,"path":"Task/1.StateMachine.md","ref":"Task/1.StateMachine.md","articles":[]},"dir":"ltr"},"config":{"plugins":["flow","sequence","mermaid-gb3"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"sequence":{"theme":"simple"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"flow":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"mermaid-gb3":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"SNiPER Documentation","gitbook":"3.x.x"},"file":{"path":"DataManagement.md","mtime":"2017-12-20T00:51:54.509Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-12-20T00:52:01.082Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
